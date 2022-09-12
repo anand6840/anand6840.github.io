@@ -1,0 +1,35 @@
+.focus {
+  transition: transform 0.3s;
+}
+.skill-container{
+  background-color:#b8c7d0;
+}
+.focus:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.image-style {
+  width: 3em;
+  /* height: 2.5em; */
+}
+
+.font-details {
+  font-size: 3em;
+  font-weight: 500;
+  color: #231d5af8;
+}
+
+.font-details-b {
+  font-size: 3em;
+  font-weight: 500;
+  color: #2b0353;
+}
+.width-container {
+  width: 70%;
+  margin: 0 auto;
+}
