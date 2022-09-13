@@ -9,6 +9,7 @@ import { Navbaar } from "./components/Navbaar";
 import { MyCarousal } from "./components/my-carousal/my-carousal.component";
 import { Title } from "./components/title-message/title-message.component";
 import { Footer } from "./components/footer/Footer";
+import ServicesExperience from "./components/ServicesExperience";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <MyCarousal />
       <Title />
       <About />
+      <ServicesExperience />
       <Skills />
       <Projects />
       <Contact />

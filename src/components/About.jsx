@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
-
+import TypeWriterEffect from "react-typewriter-effect";
 import "./About.css";
 import profile from "../assets/img/profile/profile.png";
 const About = () => {
@@ -16,23 +16,94 @@ const About = () => {
       </Container>
       <Container className="bgi">
         <Row className="about-container">
+
+        <Col>
+            <Image src={profile} rounded className="profile-image" />
+          </Col>
          
           <Col>
             <div className="aobut-name">
-              <h6>Hi there! I am  Anand Waghmare,</h6>
+              {/* <h6>Hi there! I am  Anand Waghmare,</h6> */}
               <h4></h4>
               <br />
-              <p>
-                I am currently learning full stack web development at Masai
-                School. I am passionate about solving real-world problems and
-                actively looking for opportunities in the field of web
-                development and software engineering.
-              </p>
+              <div id="abt">
+              <TypeWriterEffect
+            textStyle={{
+              fontFamily: "Red Hat Display",
+              color: "black",
+              fontWeight: 50,
+              fontSize: "2vw",
+            }}
+            startDelay={2000}
+            // cursorColor="#3F3D56"
+            cursorColor="transparent"
+            multiText={["Name: Anand Waghmare"]}
+            
+            multiTextDelay={1000}
+           
+            typeSpeed={30}
+            loop="true"
+            autoStart="true"
+          />
+            <TypeWriterEffect
+            textStyle={{
+              fontFamily: "Red Hat Display",
+              color: "black",
+              fontWeight: 50,
+              fontSize: "2vw",
+            }}
+            startDelay={3000}
+            // cursorColor="#3F3D56"
+            cursorColor="transparent"
+            multiText={["Profile: Full Stack Web Developer"]}
+            
+            multiTextDelay={1000}
+           
+            typeSpeed={30}
+            loop="true"
+            autoStart="true"
+          />
+  <TypeWriterEffect
+            textStyle={{
+              fontFamily: "Red Hat Display",
+              color: "black",
+              fontWeight: 50,
+              fontSize: "2vw",
+            }}
+            startDelay={4000}
+            // cursorColor="#3F3D56"
+            cursorColor="transparent"
+            multiText={["Education: B.E. in Electrical Engineering"]}
+            
+            multiTextDelay={1000}
+           
+            typeSpeed={30}
+            loop="true"
+            autoStart="true"
+          />
+  <TypeWriterEffect
+            textStyle={{
+              fontFamily: "Red Hat Display",
+              color: "black",
+              fontWeight: 50,
+              fontSize: "2vw",
+            }}
+            startDelay={5000}
+            cursorColor="transparent"
+            multiText={["Address: Latur, Maharashtra, India"]}
+            
+            multiTextDelay={1000}
+           
+            typeSpeed={30}
+            loop="true"
+            autoStart="true"
+          />
+
+
+              </div>
             </div>
           </Col>
-          <Col>
-            <Image src={profile} rounded className="profile-image" />
-          </Col>
+         
         </Row>
       </Container>
     </div>
