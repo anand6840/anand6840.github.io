@@ -27,6 +27,7 @@ const About = () => {
               <h4></h4>
               <br />
               <div id="abt">
+
               <TypeWriterEffect
             textStyle={{
               fontFamily: "Red Hat Display",
@@ -37,7 +38,7 @@ const About = () => {
             startDelay={2000}
             // cursorColor="#3F3D56"
             cursorColor="transparent"
-            multiText={["Name: Anand Waghmare"]}
+            multiText={["I am Anand Waghmare from Latur, Maharshtra. I have completed B.E. in Electrical Engg. branch at Swami Ramanand Teerth Marathwada University, Nanded. Nowadays I am learning Full-Stack Web(MERN) Development."]}
             
             multiTextDelay={1000}
            
@@ -45,60 +46,6 @@ const About = () => {
             loop="true"
             autoStart="true"
           />
-            <TypeWriterEffect
-            textStyle={{
-              fontFamily: "Red Hat Display",
-              color: "black",
-              fontWeight: 50,
-              fontSize: "2vw",
-            }}
-            startDelay={3000}
-            // cursorColor="#3F3D56"
-            cursorColor="transparent"
-            multiText={["Profile: Full Stack Web Developer"]}
-            
-            multiTextDelay={1000}
-           
-            typeSpeed={30}
-            loop="true"
-            autoStart="true"
-          />
-  <TypeWriterEffect
-            textStyle={{
-              fontFamily: "Red Hat Display",
-              color: "black",
-              fontWeight: 50,
-              fontSize: "2vw",
-            }}
-            startDelay={4000}
-            // cursorColor="#3F3D56"
-            cursorColor="transparent"
-            multiText={["Education: B.E. in Electrical Engineering"]}
-            
-            multiTextDelay={1000}
-           
-            typeSpeed={30}
-            loop="true"
-            autoStart="true"
-          />
-  <TypeWriterEffect
-            textStyle={{
-              fontFamily: "Red Hat Display",
-              color: "black",
-              fontWeight: 50,
-              fontSize: "2vw",
-            }}
-            startDelay={5000}
-            cursorColor="transparent"
-            multiText={["Address: Latur, Maharashtra, India"]}
-            
-            multiTextDelay={1000}
-           
-            typeSpeed={30}
-            loop="true"
-            autoStart="true"
-          />
-
 
               </div>
             </div>
