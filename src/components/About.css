@@ -1,6 +1,6 @@
 h1,
-h2 {
-  color: #2a2460;
+h2,h3,h5 {
+  color: whitesmoke;
 }
 .about-container {
   padding: 25px;
@@ -12,7 +12,7 @@ h1 {
   font-size: 60px;
 }
 .bgi {
-  background-color: #b8c7d0;
+  background: #11111a;
 }
 .profile-image {
   width: 50%;

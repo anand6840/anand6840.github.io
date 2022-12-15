@@ -1,34 +1,18 @@
-import React, { useState } from "react";
+
 
 function ServicesExperience() {
-  const [services] = useState([
-    {
-      icon: "fa-paintbrush",
-      title: "UI Design",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-      active: false,
-    },
-    {
-      icon: "fa-pen-to-square",
-      title: "Product Design",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-      active: true,
-    },
-    {
-      icon: "fa-ruler",
-      title: "Branding",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-      active: false,
-    },
-  ]);
+  
+
   return (
     <section className="services-experience">
       <div className="container" id="coding">
+       <h1  style={{color:"transparent"}}>Stats</h1>
+       <h1>STATISTICS</h1>
        
-        <div className="experiences" id="experiences">
+        <div className="experiences" id="experiences"  background= "">
           <div className="experience">
             <h3>1200+</h3>
-            <p>Hrs Coding</p>
+            <h3 style={{fontSize:"20px"}}>Hrs Coding</h3>
           </div>
           <div className="portfolios">
             <div className="portfolio">

@@ -34,7 +34,11 @@ export const Navbaar = () => {
               <Nav.Link eventKey={2} href="#about">
                 About
               </Nav.Link>
-              <Nav.Link href="#skills">Skills</Nav.Link>
+              <Nav.Link eventKey={2} href="#coding">
+                Statistics
+              </Nav.Link>
+              <Nav.Link href="#Skills">Skills</Nav.Link>
+              
               <Nav.Link href="#projects">Projects</Nav.Link>
               <Nav.Link eventKey={2} href="#contact">
                 Contact

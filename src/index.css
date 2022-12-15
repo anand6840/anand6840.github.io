@@ -5,8 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#b8c7d0 ;
-}
+  background: #11111a;}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -15,14 +14,12 @@ code {
 
 /* Service */
 
-#coding{
-  /* background-color:#b8c7d0 ; */
-}
+
 
 .services-experience {
   padding: 100px 0px;
   position: relative;
-  background-color:#b8c7d0 ;
+  background: #11111a; ;
   margin-top: -5%;
 
 }
@@ -95,8 +92,7 @@ code {
 
 .experiences {
   margin-top: 100px;
-  background-color:#b8c7d0 ;
-  
+  background: #11111a;  
 }
 .experience {
   flex: 0 0 calc(33.33% - 10px);

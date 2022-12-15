@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 
-.contact-me span {
+.contact-me span,h5 {
   margin: 0 10px;
   color: rgb(74, 74, 74);
 }
@@ -15,6 +15,6 @@
   color: black;
 }
 .contact-container {
-  background-color: #b8c7d0;
+  background: #11111a;
   padding: 40px;
 }

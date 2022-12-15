@@ -42,7 +42,7 @@ export const Title = () => {
                 color: "#fff",
                 fontSize: "5vw",
               }}
-              startDelay={1000}
+              // startDelay={1000}
               cursorColor="blue"
               text="Anand Waghmare"
               typeSpeed={100}

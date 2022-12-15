@@ -1,0 +1,38 @@
+body{
+    background: #11111a;
+}
+h1{
+    color: whitesmoke;
+}
+
+.github{
+    margin-top: 35px;
+
+    background: #11111a;    
+    padding-bottom: 50px;
+
+}
+#statis{
+    display: flex;
+    justify-content: center;
+}
+#statis>img{
+    
+    height: 350px;
+    width: 600px;
+    
+    margin-top: 20px;
+}
+/* #image1{
+    width: 600px;
+} */
+
+@media screen and (min-width: 320px){
+    #image1{
+        width: 400px;
+    }
+  }
+    
+    
+
+
