@@ -3,13 +3,6 @@ import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import "./Github.css";
 
-
-
-
-
-
-
-
 const GitHub = () => {
   const github = {
     margin: "auto",
