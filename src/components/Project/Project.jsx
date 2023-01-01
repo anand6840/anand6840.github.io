@@ -99,8 +99,8 @@ const Project = () => {
                   <p>PharmEasy is a consumer healthcare “super app” that provides consumers with on-demand, home delivered access to a wide range of prescription, OTC pharmaceutical, other consumer healthcare products, comprehensive diagnostic test services.</p>
                   <p>Tech Stack: HTML | JavaScript | CSS | ReactJS | MongoDB | NodeJs</p>
                   <div className="portButt">
-                    <a href="https://mellifluous-gumdrop-aef3b9.netlify.app/"><button>VIEW SITE</button></a>
-                    <a href="https://github.com/Anish22prakash/Nykaa"><button>VIEW CODE</button></a>
+                    <a href="https://pharmbuddy.vercel.app/"><button>VIEW SITE</button></a>
+                    <a href="https://github.com/anand6840/pharm-Buddy.com"><button>VIEW CODE</button></a>
                   </div>
                </div>
           </div>
