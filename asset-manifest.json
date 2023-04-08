@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.c26e1942.css",
-    "main.js": "/static/js/main.1b3d29d3.js",
-    "static/media/profile.png": "/static/media/profile.b15feeef9c4d6d293922.png",
+    "main.css": "/static/css/main.ce836af5.css",
+    "main.js": "/static/js/main.99a5d7ce.js",
+    "static/media/profile.png": "/static/media/profile.20efbb3ff87a5aa0b8cb.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/pngwing.com.png": "/static/media/pngwing.com.ca43f9388a3f7735bfa1.png",
+    "static/media/resume.pdf": "/static/media/resume.507a72e815a7351b8046.pdf",
     "static/media/stylecraze.JPG": "/static/media/stylecraze.f8dc07f0ff4b0d03524d.JPG",
     "static/media/Expedia.JPG": "/static/media/Expedia.153844e6ec6aaafd9fbc.JPG",
     "static/media/PharmBuddy.JPG": "/static/media/PharmBuddy.30117499a1653326a85c.JPG",
@@ -14,14 +15,13 @@
     "static/media/mytheresa.JPG": "/static/media/mytheresa.ea58275b85df3ccd088c.JPG",
     "static/media/GetHarvest.JPG": "/static/media/GetHarvest.2129310a65a1cc52f5f0.JPG",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/resume.pdf": "/static/media/resume.3bdec9a347238d000466.pdf",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/index.html",
-    "main.c26e1942.css.map": "/static/css/main.c26e1942.css.map",
-    "main.1b3d29d3.js.map": "/static/js/main.1b3d29d3.js.map"
+    "main.ce836af5.css.map": "/static/css/main.ce836af5.css.map",
+    "main.99a5d7ce.js.map": "/static/js/main.99a5d7ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.c26e1942.css",
-    "static/js/main.1b3d29d3.js"
+    "static/css/main.ce836af5.css",
+    "static/js/main.99a5d7ce.js"
   ]
 }
